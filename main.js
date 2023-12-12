@@ -9,7 +9,7 @@ let format = "in";
 var input = "5+10*3*3-12"; //return 5
 
 //////CONNECT ALL FUNCTIONS///////////
-function user(equation_expr) {
+function user(equation_expr,format) {
   const lex = lexer(equation_expr,format);
   const gramm = clarifier(lex, format);
   const parse = parser(gramm);
@@ -17,4 +17,4 @@ function user(equation_expr) {
 }
 ////////////////////////////
 
-console.log(`\nThe answer is: ${user(input)} ${format}`);
+console.log(`\nThe answer is: ${user(input, format)} ${format}`);
