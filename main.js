@@ -18,3 +18,6 @@ function user(equation_expr,format) {
 ////////////////////////////
 
 console.log(`\nThe answer is: ${user(input, format)} ${format}`);
+
+
+module.exports = {user};
