@@ -1,6 +1,8 @@
 # dimension-calc-shapr3d
 This is the logic program of the mock Shapr3d dimensional calculator, but with added features that can improve the user experience. 
 
+![calculator 2023-12-25 17-18-33-389](https://github.com/ldoum/dimension-calc-shapr3d/assets/107377652/c8ebab78-c0c0-4873-9db2-ced7a7374dbd)
+
 # Features include:
 Unit conversion
 Unary operation handling
